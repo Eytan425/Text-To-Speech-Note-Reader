@@ -14,6 +14,6 @@ def read_file_contents(file_content):
         engine.say(file_content)
         engine.runAndWait()
 
-path = input("Enter file path: ")
+path = input("Enter the path to the file: ")
 read_file_contents(read_text_from_file(path))
      
